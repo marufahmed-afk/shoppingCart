@@ -1,0 +1,13 @@
+export const ADD_CART_ITEM = "ADD_ITEM";
+export const DELETE_CART_ITEM = "DELETE_CART_ITEM";
+export const TOGGLE_CART = "TOGGLE_CART";
+export const OPEN_CART = "OPEN_CART";
+export const INCREASE_QUANTITY = "INCREASE_QUANTITY";
+export const DECREASE_QUANTITY = "DECREASE_QUANTITY";
+export const CONFIRM_ORDER = "CONFIRM_ORDER";
+export const REMOVE_MSG = "REMOVE_MSG";
+export const CLEAR = "CLEAR";
+export const GET_PRODUCTS = "GET_PRODUCTS";
+export const PRODUCT_ERROR = "PRODUCT_ERROR";
+export const ADD_ORDER = "ADD_ORDER";
+export const ORDER_ERROR = "ORDER_ERROR";

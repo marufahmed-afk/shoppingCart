@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  padding: 3.5em 5em;
+}
+
+.card {
+  background: #161f21;
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin: 20px 10px;
+  color: white;
+  position: relative;
+}
+
+.card h3 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.card p {
+  font-size: 1.5em;
+}
+
+.card:hover {
+  background: #334448;
+}
+
+.add-to-cart-btn {
+  width: 30px;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  cursor: pointer;
+}
+
+.products-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.cart-btn {
+  width: 30px;
+  cursor: pointer;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.cart {
+  background-color: #161f21;
+  padding: 30px 30px;
+  color: white;
+  border-radius: 20px;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.cart::-webkit-scrollbar {
+  display: none;
+}
+
+.cart h2 {
+  margin-bottom: 20px;
+}
+
+.cart li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #334448;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+}
+
+.cart img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.cart h3 {
+  width: 150px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.qty {
+  margin: 6px 0;
+}
+
+.toggle-cart {
+  display: none;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.order-btn {
+  width: 8em !important;
+  height: 3em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.order-btn:hover {
+  background-color: #334448;
+  color: white;
+}
+
+.qty-btn {
+  width: 15px !important;
+}
+
+.down-btn {
+  transform: rotate(180deg);
+}
+
+.quantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-msg {
+  display: none;
+}
+
+.show-msg {
+  display: block;
+}
